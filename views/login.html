@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/iconfont/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/login.css">
+    <title>登录</title>
+
+</head>
+<body>
+    <section id="main">
+        <h1>LOGIN</h1>
+        <form id="loginForm" action="" method="post">
+            <div class="item">
+                <div class="ch-label"><i class="icon-username"></i></div>
+                <div class="ch-input"><input type="text" placeholder="用户名" name="username" /></div>
+            </div>
+            <div class="item">
+                <div class="ch-label"><i class="icon-password"></i></div>
+                <div class="ch-input"><input type="password" placeholder="密码" name="password" /></div>
+            </div>
+            <div class="item">
+                <div class="ch-label"><i class="icon-validate"></i></div>
+                <div class="ch-input ch-input-validate"><input type="text" placeholder="验证码" name="validate" /></div>
+                <div class="ch-img-validate"><img id="validateImage" src="/captcha/{{.CaptchaId}}.png" onclick="reload()" /></div>
+            </div>
+            <div class="item">
+                <button class="login-btn" onclick="login(event)">登录</button>
+            </div>
+        </form>
+    </section>
+    <script>
+
+    </script>
+    <script type="text/javascript" src="/static/js/bg/particles.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/login.js"></script>
+</body>
+</html>
