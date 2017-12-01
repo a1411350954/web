@@ -1,19 +1,22 @@
 package main
 
 import (
+	//"github.com/astaxie/beego"
+	/*_ "web/routers"
+	"github.com/astaxie/beego/orm"
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/astaxie/beego/logs"
+	"github.com/astaxie/beego"*/
+	//"web/models"
 	"time"
 	"fmt"
+	"test"
 )
-
 func init() {
 	/*orm.RegisterDriver("mysql", orm.DRMySQL)
-
 	orm.RegisterDataBase("default", "mysql", "root:123@tcp(localhost:3306)/web?charset=utf8&loc=Local")
-
 	orm.RunSyncdb("default",false,true)
-
 	orm.Debug = true
-
 	logs.SetLogger("console")*/
 
 }
