@@ -1,13 +1,6 @@
 package main
 
 import (
-	//"github.com/astaxie/beego"
-	/*_ "web/routers"
-	"github.com/astaxie/beego/orm"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/astaxie/beego/logs"
-	"github.com/astaxie/beego"*/
-	//"web/models"
 	"time"
 	"fmt"
 )
