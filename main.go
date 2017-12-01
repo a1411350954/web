@@ -10,6 +10,7 @@ import (
 	//"web/models"
 	"time"
 	"fmt"
+	"test"
 )
 func init() {
 	/*orm.RegisterDriver("mysql", orm.DRMySQL)
