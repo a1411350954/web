@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"web/controllers"
+	"github.com/a1411350954/web/controllers"
 	"github.com/dchest/captcha"
 )
 

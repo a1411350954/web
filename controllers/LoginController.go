@@ -3,8 +3,8 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/dchest/captcha"
-	"web/models"
 	"github.com/hzwy23/hauth/utils/hret"
+	"github.com/a1411350954/web/models"
 )
 
 type LoginController struct {
